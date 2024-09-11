@@ -47,7 +47,7 @@ func GenerateSignature(key, secret string, nonce int) string {
 	h.Write([]byte(msg))
 	sig := strings.ToUpper(hex.EncodeToString(h.Sum(nil)))
 
-	fmt.Printf("generated signature %s\n", sig)
+	fmt.Printf("generated signature %s***\n", sig[:5])
 	return sig
 }
 
