@@ -28,7 +28,7 @@ func TestGenerateSignature(t *testing.T) {
 		nonce    int
 		expected string
 	}{
-		// Random hex strings of equivalent lenght of Splynx tokens, don't get excited
+		// Random hex strings of equivalent length of Splynx tokens, don't get excited
 		{"d0e0e21be10d744f0562d38d022d181b", "e459f3edeb4b10f755ee433db544e9f9", 1726070045, "3BCBF92DD327522A2D01C8560257DF34C1FAA831F18A7595C7B9E7F2631DB579"},
 		{"1d5b3795cfe037f548318eb64737c8c8", "b5b71a66ae22bd5dcef8677b002049ad", 1726070081, "8F45EF5DFF1DF375D89BF127213994D7A83BC0B99BF3B488E6EFA9A2F167925B"},
 	}
